@@ -1,13 +1,13 @@
 {% set name = "PyCRS" %}
-{% set version = "0.1.3" %}
+{% set version = "1.0.1" %}
 
 package:
   name: {{ name|lower }}
   version: {{ version }}
 
 source:
-  url: https://pypi.io/packages/source/{{ name[0]|lower }}/{{ name|lower }}/{{ name }}-{{ version }}.zip
-  sha256: 5daecb2254c19aa05ad4097f06b93d37a0a0f7eba996a182c02999cf1dc28caf 
+  url: https://pypi.io/packages/source/{{ name[0]|lower }}/{{ name|lower }}/{{ name }}-{{ version }}.tar.gz
+  sha256: f6fd88d5b6b1bcd4615c0f9867eab8a8285537119a75d6ead19191b76a0e02c1 
 
 build:
   noarch: python
