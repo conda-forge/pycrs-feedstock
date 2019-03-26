@@ -25,8 +25,8 @@ test:
   imports:
     - pycrs
     - pycrs.elements
-    - pycrs.loader
-    - pycrs.parser
+    - pycrs.load
+    - pycrs.parse
     - pycrs.utils
 
 about:
